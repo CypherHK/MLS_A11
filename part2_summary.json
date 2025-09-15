@@ -1,0 +1,9 @@
+{
+  "weights_file": "mnist_cnn.weights.h5",
+  "tflite_float32_file": "mnist_model.tflite",
+  "tflite_int8_file": "mnist_model_quantized.tflite",
+  "accuracy": {
+    "tflite_float32": 0.9774,
+    "tflite_int8": 0.9773
+  }
+}
